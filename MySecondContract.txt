@@ -1,0 +1,25 @@
+pragma solidity ^0.4.20;
+
+
+
+contract MySecondContract
+	{
+    
+    
+	string private name;
+    
+ 
+ function setA(string newname)
+ {
+        name = newname;
+    }
+  
+
+  function getA() constant returns(string)
+   
+ {
+        return name;
+    }
+
+
+}

@@ -1,0 +1,26 @@
+pragma solidity ^0.4.20;
+
+
+
+contract MyfirstContract {
+    
+   
+	 uint128  private Age;
+    
+   
+
+ function setA(uint128 age)
+   
+	 {
+        Age =age;
+    }
+   
+ 
+function getA() constant returns(uint128)
+  
+  {
+        return Age;
+    }
+
+
+}
